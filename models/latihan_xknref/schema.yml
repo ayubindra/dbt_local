@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: latihan
+    description: 'sample data from my local postgres database'
+    database: latihan  
+    schema: xknref  
+    tables:
+      - name: ref_customerdim
+      - name: ref_salesfact
+      - name: ref_datedim
+      - name: ref_bookdim
+      - name: ref_authordim
+      - name: ref_genredim
+      - name: ref_publisherdim
