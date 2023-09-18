@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: latihan
+    description: 'sample data from my local postgres database'
+    database: latihan  
+    schema: xkndwh 

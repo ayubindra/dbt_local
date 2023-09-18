@@ -34,5 +34,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_local:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    xkndwh:
       +materialized: view
+      +schema: xkndwh
+      xknref:
+        +materialized: table
+        +schema: xknref
